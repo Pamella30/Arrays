@@ -1,9 +1,11 @@
-const notas = [10, 7, 3.4, 8]
-const media = (notas[0], notas[1], notas[2], notas[3]) / notas.length;
+const numeros = [5, 6, 9.4]
+numeros.push(3.7)
 
-console.log(media)
+console.log(numeros)
 
-//
+// 
 const time = ["Pamella", "Ana Viterale", "Izabella", "Leticia", "Ana Carla", "Jenifer", "Marcela", "Wania", "Marcia", "Vagner", "Samuel", "Solange", "Jessyca" ]
+time.push("Prisicla")
 
-console.log(time[4], time[8])
+console.log(time)
+
