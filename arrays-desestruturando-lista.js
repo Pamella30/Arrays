@@ -6,9 +6,15 @@ const listaDeAlunos = [aluno, media];
 function exibeNomeNota(aluno){
 
     if (listaDeAlunos[0].includes(aluno)){
-        const indice = listaDeAlunos[0].indexOf(aluno)
+        //const alunos = listaDeAlunos[0];
+        //const medias = listaDeAlunos[1];
+        //Outra forma de escrever o que esta comentado acima e escrever da forma da linha de codigo abaixo
 
-        const mediaAluno = listaDeAlunos[1][indice]
+        const [alunos, medias] = listaDeAlunos
+
+        const indice = alunos.indexOf(aluno)
+
+        const mediaAluno = medias[indice]
 
         console.log(`${aluno} tem a media ${mediaAluno}.`)
     }else {
